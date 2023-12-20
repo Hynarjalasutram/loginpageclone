@@ -1,0 +1,54 @@
+*{
+    outline:0%;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url("./images/images.jpeg");
+    background-size: cover;
+}
+.head{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+.headleft{
+    display: flex;
+    position: absolute; 
+    max-height: 50%;
+    margin-top:15px;
+    padding-left: 100px;
+}
+.headright{
+    display: flex;
+    color: rgb(165, 27, 32);
+    position: absolute;
+    align-items: center;
+    right: 10%;
+    margin-top: 1.4%;
+}
+.headright li{
+    margin: 10px;
+}
+.body{
+    position: relative;
+    text-align: center;
+    margin-top: 15%;
+}
+.body h1{
+    color: rgb(223, 88, 43);
+    margin: 10px;
+}
+.body p{
+    color: white;
+    margin: 20px;
+}
+.button{
+    background:transparent;
+    color : white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
